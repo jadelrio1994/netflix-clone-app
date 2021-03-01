@@ -1,4 +1,5 @@
 import { Banner } from "./components/Banner";
+import { Nav } from "./components/Nav";
 import { Row } from "./components/Row";
 import requests from "./requests";
 
@@ -6,7 +7,7 @@ function App() {
   return (
     <div className="app">
       {/* Nav */}
-
+      <Nav />
       {/* Banner */}
       <Banner />
       {/* Rows */}
